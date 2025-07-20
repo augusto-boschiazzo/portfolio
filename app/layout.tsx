@@ -4,7 +4,7 @@ import "./globals.css";
 import Navbar from "./components/Navbar";
 import { Toaster } from "sonner";
 
-export const font = Gabarito({
+export const gabarito = Gabarito({
     variable: "--font-gabarito",
     subsets: ["latin"],
     weight: "400",
@@ -23,7 +23,7 @@ export default function RootLayout({
 }>) {
     return (
         <html lang="en">
-            <body className={`${font.variable} `}>
+            <body className={`${gabarito.variable} `}>
                 <Navbar />
                 <main className="min-h-screen w-full mx-auto px-2 lg:px-0">
                     {children}
