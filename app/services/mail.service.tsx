@@ -3,7 +3,7 @@ import { Resend } from "resend";
 
 import { EmailTemplate } from "./EmailTemplate";
 
-const resend = new Resend("re_KxaPA1NV_22B2YGTWyyCtvVk1iM7TsonR");
+const resend = new Resend(process.env.RESEND_API_KEY);
 
 interface SendEmailParams {
     fromName: string;
