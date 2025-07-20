@@ -4,7 +4,7 @@ import "./globals.css";
 import Navbar from "./components/Navbar";
 import { Toaster } from "sonner";
 
-export const gabarito = Gabarito({
+const gabarito = Gabarito({
     variable: "--font-gabarito",
     subsets: ["latin"],
     weight: "400",
