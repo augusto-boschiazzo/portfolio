@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 
 type Props = {
@@ -9,13 +10,15 @@ function TechIcon({ imgUrl, title }: Props) {
     return (
         <div className="flex flex-col items-center justify-center lg:w-[150px] ">
             {imgUrl ? (
-                <img
+                <Image
                     src={`/tech_images/${imgUrl}`}
                     alt={title + " icon"}
+                    width={48}
+                    height={48}
                     className={
                         ["Rust", "Next.js"].includes(title)
-                            ? "w-12 h-12 object-scale-down rounded-sm hover:scale-150 transition-transform duration-300 invert dark:invert-0"
-                            : "w-12 h-12 object-scale-down rounded-sm hover:scale-150 transition-transform duration-300"
+                            ? "object-scale-down rounded-sm hover:scale-150 transition-transform duration-300 invert dark:invert-0"
+                            : "object-scale-down rounded-sm hover:scale-150 transition-transform duration-300"
                     }
                 />
             ) : (

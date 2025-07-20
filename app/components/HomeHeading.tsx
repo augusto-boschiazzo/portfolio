@@ -8,9 +8,9 @@ function HomeHeading() {
             </h1>
             <h3 className="mt-1 text-3xl font-medium">Software Developer</h3>
             <p className="mt-4 text-lg">
-                I'm 22 years old and based in Argentina. <br />
-                I'm interested in building web applications and learning new
-                technologies. <br />
+                I&apos;m 22 years old and based in Argentina. <br />
+                I&apos;m interested in building web applications and learning
+                new technologies. <br />
                 Currently focused on Next.js and TypeScript.
             </p>
         </div>

@@ -1,6 +1,5 @@
 import React from "react";
 import Project from "../Project";
-import { title } from "process";
 
 function ProjectsSection() {
     const list = [

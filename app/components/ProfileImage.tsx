@@ -1,9 +1,10 @@
+import Image from "next/image";
 import React from "react";
 
 function ProfileImage() {
     return (
         <span className="relative flex">
-            <img
+            <Image
                 src="/profile.jpg"
                 alt="Profile"
                 width={200}

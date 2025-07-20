@@ -19,7 +19,7 @@ function HomeSection() {
                 <div className="flex flex-col items-center text-center">
                     <p>
                         <span className="text-purple-600">Technologies </span>
-                        I've worked with
+                        I&apos;ve worked with
                     </p>
                     <Arrow />
                 </div>

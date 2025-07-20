@@ -15,15 +15,15 @@ function About() {
                         development, and I am always eager to learn more.
                         <br />
                         <br />
-                        I've been studying at the National University of La
+                        I&apos;ve been studying at the National University of La
                         Plata (UNLP) since 2021, where I have gained a solid
                         foundation in computer science and software engineering
                         principles, as well as getting to work with teams in
                         projects.
                         <br />
                         <br />
-                        If you have any projects or ideas you'd like to discuss,
-                        please feel free to reach out to me in any way!
+                        If you have any projects or ideas you&apos;d like to
+                        discuss, please feel free to reach out to me in any way!
                     </p>
                     <Link
                         href={"/cv_boschiazzo_augusto.pdf"}

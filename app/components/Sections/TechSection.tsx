@@ -46,8 +46,8 @@ function TechSection() {
                     className="flex flex-col items-center justify-center text-center"
                 >
                     <p>
-                        <span className="text-purple-600">Projects</span> I've
-                        Worked On
+                        <span className="text-purple-600">Projects</span>{" "}
+                        I&apos;ve Worked On
                     </p>
                     <Arrow />
                 </Link>
