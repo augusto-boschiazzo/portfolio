@@ -1,6 +1,11 @@
 import React from "react";
 import AboutIconCard from "../components/AboutIconCard";
 import Link from "next/link";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+    title: "About",
+};
 
 function About() {
     return (

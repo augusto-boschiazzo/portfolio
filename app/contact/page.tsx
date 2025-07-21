@@ -3,6 +3,11 @@ import ContactForm from "../components/ContactForm";
 import { LinkedInIcon } from "../components/Icons/LinkedInIcon";
 import Link from "next/link";
 import { InstagramIcon } from "../components/Icons/InstagramIcon";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+    title: "Contact",
+};
 
 function Contact() {
     return (

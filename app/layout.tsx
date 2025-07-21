@@ -11,7 +11,10 @@ const gabarito = Gabarito({
 });
 
 export const metadata: Metadata = {
-    title: "Augusto Boschiazzo | Developer Portfolio",
+    title: {
+        template: "%s | Augusto Boschiazzo",
+        default: "Augusto Boschiazzo | Developer Portfolio",
+    },
     description:
         "A portfolio showcasing the work and skills of Augusto Boschiazzo.",
 };
