@@ -2,7 +2,7 @@ import React from "react";
 
 function HomeHeading() {
     return (
-        <div className="flex flex-col">
+        <div className="flex flex-col fade-in">
             <h1 className="text-5xl font-bold">
                 Hi, my name is <span className="text-purple-600">Augusto</span>
             </h1>

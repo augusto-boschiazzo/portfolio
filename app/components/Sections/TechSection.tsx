@@ -23,7 +23,7 @@ function TechSection() {
             id="tech"
             className="min-h-screen w-full relative flex items-center lg:flex-col lg:justify-center sm:gap-[30px] lg:gap-[70px] px-4"
         >
-            <div className="w-full lg:w-[70%] max-w-screen-lg mx-auto">
+            <div className="w-full lg:w-[70%] max-w-screen-lg mx-auto fade-in">
                 <h1 className="text-2xl lg:text-6xl font-bold text-center mb-6">
                     Technologies
                 </h1>
