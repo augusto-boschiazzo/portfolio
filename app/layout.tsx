@@ -3,6 +3,7 @@ import { Gabarito } from "next/font/google";
 import "./globals.css";
 import Navbar from "./components/Navbar";
 import { Toaster } from "sonner";
+import { Analytics } from "@vercel/analytics/next";
 
 const gabarito = Gabarito({
     variable: "--font-gabarito",
@@ -25,14 +26,17 @@ export default function RootLayout({
     children: React.ReactNode;
 }>) {
     return (
-        <html lang="en">
-            <body className={`${gabarito.variable} `}>
-                <Navbar />
-                <main className="min-h-screen w-full mx-auto px-2 lg:px-0">
-                    {children}
-                </main>
-                <Toaster />
-            </body>
-        </html>
+        <>
+            <Analytics />
+            <html lang="en">
+                <body className={`${gabarito.variable} `}>
+                    <Navbar />
+                    <main className="min-h-screen w-full mx-auto px-2 lg:px-0">
+                        {children}
+                    </main>
+                    <Toaster />
+                </body>
+            </html>
+        </>
     );
 }
