@@ -26,14 +26,14 @@ function Contact() {
                         target="_blank"
                         rel="noopener noreferrer"
                     >
-                        <LinkedInIcon className="w-8 h-8 fill-black hover:fill-[#2868b2] transition duration-200" />
+                        <LinkedInIcon className="w-8 h-8 fill-black dark:fill-white hover:fill-[#2868b2] transition duration-200" />
                     </Link>
                     <Link
                         href={"https://www.instagram.com/augusto.boschiazzo08"}
                         target="_blank"
                         rel="noopener noreferrer"
                     >
-                        <InstagramIcon className="w-8 h-8 fill-black hover:fill-[#db00ac] transition duration-200" />
+                        <InstagramIcon className="w-8 h-8 fill-black dark:fill-white hover:fill-[#db00ac] transition duration-200" />
                     </Link>
                 </div>
             </footer>

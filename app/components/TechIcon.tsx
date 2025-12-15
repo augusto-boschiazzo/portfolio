@@ -17,7 +17,7 @@ function TechIcon({ imgUrl, title }: Props) {
                     height={48}
                     className={
                         ["Rust", "Next.js"].includes(title)
-                            ? "object-scale-down rounded-sm hover:scale-150 transition-transform duration-300 invert dark:invert-0"
+                            ? "object-scale-down rounded-sm hover:scale-150 transition-transform duration-300 dark:invert"
                             : "object-scale-down rounded-sm hover:scale-150 transition-transform duration-300"
                     }
                 />
