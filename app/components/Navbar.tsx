@@ -13,7 +13,7 @@ const Navbar = () => {
                             alt="Logo"
                             width={32}
                             height={32}
-                            className="dark:invert rounded-full hover:scale-110 transition-transform duration-300"
+                            className="dark:invert-0 invert rounded-full hover:scale-110 transition-transform duration-300"
                         />
                     </Link>
                     <Link
@@ -27,12 +27,12 @@ const Navbar = () => {
                             alt="GitHub Logo"
                             width={32}
                             height={32}
-                            className="dark:invert rounded-full hover:scale-110 transition-transform duration-300"
+                            className="invert dark:invert-0 rounded-full hover:scale-110 transition-transform duration-300"
                         />
                     </Link>
                 </div>
                 <nav>
-                    <ul className="flex gap-4 sm:text-[18px] text-white dark:text-black">
+                    <ul className="flex gap-4 sm:text-[18px] text-black dark:text-white">
                         <li>
                             <Link
                                 href="/about"

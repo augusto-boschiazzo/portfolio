@@ -15,6 +15,21 @@
     .profile-ping {
         animation: ping 2s cubic-bezier(0, 0, 0.2, 1) infinite;
     }
+
+    .fade-in {
+        animation: fadeIn 1s ease-in-out forwards;
+    }
+
+    @keyframes fadeIn {
+        0% {
+            opacity: 0;
+            transform: translateX(-50px) scale(0.95);
+        }
+        100% {
+            opacity: 1;
+            transform: translateX(0) scale(1);
+        }
+    }
 }
 
 @theme {
@@ -23,7 +38,7 @@
     --color-foreground: var(--foreground);
 }
 
-@media (prefers-color-scheme: light) {
+@media (prefers-color-scheme: dark) {
     :root {
         --background: #0a0a0a;
         --foreground: #ededed;
